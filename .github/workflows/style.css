@@ -1,9 +1,3 @@
-#bp-web-widget-container {
-width:70%;
-height: 25%;
-}
-
-/* header*/
 .bpw-header-container {
   background: url(images/header.png) no-repeat;
   background-size: 100% 100%;
@@ -14,7 +8,6 @@ height: 25%;
   background: none;
 }
  
-/* bot chat bubble*/
 .bpw-chat-bubble:first-of-type {
   border-bottom-right-radius: none !important;
   border-bottom-left-radius: none !important;
@@ -30,7 +23,6 @@ height: 25%;
   border: 2px solid orangered;
 }
  
-/* user chat bubble*/
 .bpw-from-user .bpw-chat-bubble {
   background-color: orangered;
   color: #ffffff;
